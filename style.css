@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppin',sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -20,4 +21,85 @@ h1{
 
 .half-width img{
     width: 100%;
+}
+
+.top-banner{
+    background-image:url("img/top-banner.png");   
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+
+.link-button{
+    text-decoration: none;
+    border-radius: 5px;
+    background: orangered;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    background-image:linear-gradient(45deg, lightsalmon,tomato);
+    
+}
+
+.mid-banner{
+    background-image:url("img/dream-bg.png");  
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+p{
+    color: dimgray;
+}
+
+a{
+    margin-top: 100px;
+}
+
+.mid{
+    margin-top: 90px;
+}
+
+.title-name-color{
+    color: orange;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+}
+
+.left-margin{
+    margin-left: 5%;
+}
+
+.experience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#box-boder1{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, rgb(158, 47, 3),rgb(231, 117, 97));
+    border-image-slice: 1;
+}
+
+#box-boder2{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg, rgb(12, 31, 209),rgb(44, 114, 243));
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    font-weight: 400;
+}
+
+.mtop{
+    margin-top: 50px;
 }
